@@ -1,0 +1,41 @@
+Clinical Trial Data Pipeline: CDISC-Compliant Dataset Preparation & Analysis
+Project Overview
+This project showcases a complete workflow for preparing and analyzing clinical trial datasets following CDISC standards (SDTM/ADaM). It demonstrates how to transform raw clinical data into submission-ready datasets and perform statistical analyses such as Kaplan-Meier survival analysis. The goal is to streamline the clinical data management process while ensuring regulatory compliance.
+
+Key Features
+CDISC-Compliant Datasets
+
+Created SDTM datasets: Demographics (DM), Adverse Events (AE), Laboratory (LB), and Survival (SV).
+Built ADaM datasets: Lab analysis (ADLB) and survival analysis-ready datasets (ADSV).
+Exported datasets in .xpt (SAS Transport) format for regulatory submissions.
+Data Transformation & Cleaning
+
+Used R programming to clean, standardize, and structure raw trial data.
+Prepared time-to-event variables and encoded adverse events.
+Statistical Analysis
+
+Performed Kaplan-Meier survival analysis using survival and survminer packages.
+Visualized survival curves with confidence intervals and risk tables.
+Compared survival outcomes across treatment groups.
+Automation
+
+Streamlined the dataset preparation workflow for efficiency and reproducibility.
+Tools & Technologies
+Programming Language: R
+Libraries: dplyr, tidyr, haven, survival, survminer
+Standards: CDISC SDTM & ADaM
+Outputs: Regulatory-ready .xpt files
+How to Use
+Clone this repository:
+bash
+Copy
+Edit
+git clone https://github.com/your-username/clinical-trial-data-pipeline.git
+Install required R packages.
+Run the R scripts to prepare datasets, export .xpt files, and generate survival analysis plots.
+Applications
+This project is ideal for:
+
+Clinical programmers working on regulatory submissions.
+Teams aiming to automate clinical data preparation workflows.
+Anyone looking to understand CDISC-compliant data transformation and analysis.
